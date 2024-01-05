@@ -13,6 +13,7 @@ public class sumOdd {
         for (int i = startNumber; i <= endNumber; i++){
             if (checkOdd (i)){
                 sum += i;
+                 System.out.println("Odd Numbers between " + startNumber + " and " + endNumber + " is " + i);
             }
         }
         return sum;
@@ -26,8 +27,7 @@ public class sumOdd {
             System.out.println("Invalid input");
         }
         else {
-            System.out.println("Odd Numbers between " + startNumber + " and " + endNumber + " is " + i);
-            System.out.println("The Sum of Odd Numbers between " + startNumber + " and " + endNumber + " is " + sum);
+             System.out.println("The Sum of Odd Numbers between " + startNumber + " and " + endNumber + " is " + sum);
         }
 
     }
