@@ -20,7 +20,7 @@ public class sumOdd {
     }
     public static void main(String[] args) {
         int startNumber = 1;
-        int endNumber = 100;
+        int endNumber = 1000;
         int sum = summOddNumbers(startNumber, endNumber);
         if (sum == -1){
             System.out.println("Invalid input");
