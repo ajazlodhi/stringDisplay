@@ -9,6 +9,6 @@ public class stringDisplay {
             b = a - b;
             a = a - b;
             c =  c - b;
-            System.out.println("After swapping, a is " + a + " and b is " + b + "and c is " + c);
+            System.out.println("After swapping, a is " + a + " and b is " + b + " and c is " + c);
         }
 }
