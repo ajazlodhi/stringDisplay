@@ -1,7 +1,7 @@
 public class Stars {
     public static void main(String[] args) {
         SquareStar (11);
-        ajaz}
+        }
     public static void SquareStar(int number){
         if (number < 5){
             System.out.println("Invalid Value");
