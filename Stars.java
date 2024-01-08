@@ -10,10 +10,10 @@ public class Stars {
         for (int row = 1; row < number; row++){
             for (int col = 1; col < number; col++){
                 if (row == 1 || row == number || col == 1 || col == number || col == row || col == (number - row + 1)){
-                    System.out.println("*");
+                    System.out.printf("*");
                 }
                 else {
-                    System.out.println(" ");
+                    System.out.printf(" ");
                 }
             }
             System.out.println();
