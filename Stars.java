@@ -16,7 +16,7 @@ public class Stars {
                     System.out.printf(" ");
                 }
             }
-            System.out.println();
+            
 
         }
     }
