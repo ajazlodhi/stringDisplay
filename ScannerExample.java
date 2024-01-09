@@ -10,3 +10,4 @@ public class ScannerExample {
         scanner.close();
     }
 }
+
